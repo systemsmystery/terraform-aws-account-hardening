@@ -1,7 +1,3 @@
-data "aws_regions" "current" {
-  all_regions = true
-}
-
 module "config-ap-northeast-1" {
   source           = "git@github.com:systemsmystery/terraform-aws-config-enable-module.git"
   iam_role_arn     = aws_iam_role.config.arn
