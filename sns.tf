@@ -1,3 +1,4 @@
+#tfsec:ignore:aws-sns-enable-topic-encryption
 resource "aws_sns_topic" "cis_sns_topic" {
   name = "CIS-SNS-Topic"
 }

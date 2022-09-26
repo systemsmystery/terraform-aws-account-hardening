@@ -89,6 +89,7 @@ resource "aws_iam_role" "cloudtrail_role" {
 POLICY
 }
 
+#tfsec:ignore:aws-iam-no-policy-wildcards
 data "aws_iam_policy_document" "cloudtrail_cloudwatch" {
   statement {
     effect = "Allow"
