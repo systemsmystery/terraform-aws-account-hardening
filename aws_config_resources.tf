@@ -55,7 +55,7 @@ POLICY
 
 resource "aws_iam_role_policy_attachment" "aws_configRole" {
   role       = aws_iam_role.config.name
-  policy_arn = "arn:aws:iam::aws:policy/service-role/AWSConfigRole"
+  policy_arn = "arn:aws:iam::aws:policy/service-role/AWS_ConfigRole"
 }
 #tfsec:ignore:aws-s3-enable-versioning
 resource "aws_s3_bucket" "config_bucket" {
