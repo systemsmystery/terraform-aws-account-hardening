@@ -1,3 +1,9 @@
+# terraform-aws-account-hardening
+
+This repo aims to be a one stop shop applying CIS (and other) security benchmarks to an account.
+
+> :warning: This repo is still a work in progress.
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
